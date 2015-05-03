@@ -57,4 +57,4 @@ This will probably fail with an error about `#[derive(Copy)]` in `libc`. You wil
 
 * Play a YouTube video:
 
-        $ youtube-dl https://www.youtube.com/watch?v=dQw4w9WgXcQ --exec "target/release/example {} video/mp4"
+        $ youtube-dl 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' --exec "target/release/example {} video/mp4"
